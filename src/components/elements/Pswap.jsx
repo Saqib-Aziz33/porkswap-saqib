@@ -2,8 +2,8 @@ import { Container, Row } from "react-bootstrap";
 
 function Pswap() {
   return (
-    <div className="pswap py-4" style={{ backgroundColor: "#f3f7faFF" }}>
-      <h1 className="text-center">
+    <div className="pswap py-5" style={{ backgroundColor: "#f3f7faFF" }}>
+      <h1 className="text-center mb-5 fw-bold">
         $PSWAP <span className="txt-red">Utilities</span>
       </h1>
       <Container>
@@ -11,7 +11,7 @@ function Pswap() {
           <section className="col-md-4 mb-3">
             <div className="box">
               <img src="assets/u1.png" height={60} alt="" />
-              <h6>Governance</h6>
+              <h5 className="my-2 fw-bold">Governance</h5>
               <p className="text-muted" style={{ fontSize: "0.9rem" }}>
                 Vote to modify underlying protocol, change in pricing oracle,
                 futures funding rate, platform fees, list/de-list tokens, new
@@ -22,7 +22,7 @@ function Pswap() {
           <section className="col-md-4 mb-3">
             <div className="box">
               <img src="assets/u2.png" height={60} alt="" />
-              <h6>Incentives</h6>
+              <h5 className="my-2 fw-bold">Incentives</h5>
               <p className="text-muted" style={{ fontSize: "0.9rem" }}>
                 Liquidity providers will be incentivized in $PSWAP for their
                 participation in spot and leverage liquidity pools, and LP
@@ -33,7 +33,7 @@ function Pswap() {
           <section className="col-md-4 mb-3">
             <div className="box">
               <img src="assets/u3.png" height={60} alt="" />
-              <h6>Deflation</h6>
+              <h5 className="my-2 fw-bold">Deflation</h5>
               <p className="text-muted" style={{ fontSize: "0.9rem" }}>
                 With a fixed supply of 1 million tokens, and only 200,000 in
                 circulation, $PSWAP token will increase in value overtime since

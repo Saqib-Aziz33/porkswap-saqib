@@ -9,7 +9,7 @@ function HowItWorks() {
         </h1>
         <iframe
           width="100%"
-          height="480"
+          height="720"
           src="https://www.youtube.com/embed/-V5QjGogoig"
           title="PorkSwap is Decentralised spot and futures trading platform - Explainer Video"
           frameBorder="0"
