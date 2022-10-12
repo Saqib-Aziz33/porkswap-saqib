@@ -5,6 +5,7 @@ import HowItWorks from "../components/elements/HowItWorks";
 import PlatformInterface from "../components/elements/PlatformInterface";
 import Pswap from "../components/elements/Pswap";
 import ProductRoadmap from "../components/elements/ProductRoadmap";
+import Faqs from "../components/elements/Faqs";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <PlatformInterface />
       <Pswap />
       <ProductRoadmap />
+      <Faqs />
     </>
   );
 }

@@ -94,6 +94,25 @@ body{
     background-position: center;
 }
 
+.faqs{
+    background-image: url('./media/bg-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .accordion-item .accordion-button{
+        font-weight: 600;
+        &:focus{
+            box-shadow: none;
+            background: none !important;
+            color: black;
+        }
+    }
+    .accordion-item{
+        border: none;
+        padding: 1rem 0;
+        margin: 2rem 0;
+    }
+}
+
 // *************************** overrides ***************************
 
 
