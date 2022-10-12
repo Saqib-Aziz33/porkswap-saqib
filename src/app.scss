@@ -14,9 +14,16 @@ body{
     top: 0;
     left: 0;
     width: 100%;
+    &.active{
+        position: fixed;
+        z-index: 10;
+        background-color: #12436bFF;
+    }
     .nav-link{
         color: white;
         font-weight: 600;
+        font-size: 0.9rem;
+        cursor: pointer;
     }
     .navbar-toggler{
         color: white;

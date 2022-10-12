@@ -2,7 +2,7 @@ import { Container, Accordion } from "react-bootstrap";
 
 function Faqs() {
   return (
-    <div className="faqs mt-5 py-5">
+    <div className="faqs mt-5 py-5" id="faqs">
       <Container>
         <h1 className="text-center fw-bold mb-5">FAQs</h1>
         <Accordion>

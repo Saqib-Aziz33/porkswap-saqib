@@ -2,10 +2,10 @@ import { Container, Row } from "react-bootstrap";
 
 function AsSeenOn() {
   return (
-    <div className="as-seen-on my-5">
+    <div className="as-seen-on my-5" id="features">
       <Container>
         <h3 className="text-center mb-4">As seen on</h3>
-        <Row className="align-items-center">
+        <Row className="align-items-center mb-5">
           <section className="col-sm-3">
             <img src="assets/yahoo.png" alt="" className="img-fluid" />
           </section>
@@ -84,7 +84,7 @@ function AsSeenOn() {
       </Container>
 
       <Container>
-        <Row className="align-items-center my-5">
+        <Row className="align-items-center my-5 py-5">
           <section className="col-sm-3">
             <img src="assets/cb-logo.png" alt="" className="img-fluid" />
           </section>

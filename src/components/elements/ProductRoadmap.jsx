@@ -2,12 +2,16 @@ import { Container, Row } from "react-bootstrap";
 
 function ProductRoadmap() {
   return (
-    <div className="product-roadmap my-5 py-5">
+    <div className="product-roadmap my-5 py-5" id="roadmap">
       <h1 className="text-center pb-5">
         Product <span className="txt-red">Roadmap</span>
       </h1>
-      <Container>
-        <img src="assets/porkswap-timeline.png" className="img-fluid" alt="" />
+      <Container className="my-5">
+        <img
+          src="assets/porkswap-timeline.png"
+          className="img-fluid pb-5"
+          alt=""
+        />
         <hr />
       </Container>
 

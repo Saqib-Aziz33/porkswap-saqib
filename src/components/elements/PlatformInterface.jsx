@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 
 function PlatformInterface() {
   return (
-    <div className="platfrom-interface">
+    <div className="platfrom-interface" id="platform">
       <Container className="text-center">
         <h1 className="mb-3">
           Platform <span className="txt-red">Interface</span>
