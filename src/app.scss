@@ -66,8 +66,24 @@ body{
     }
 }
 
+.how-it-works{
+    background-image: url('./media/bg-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.platfrom-interface{
+    background-image: url('./media/bg-4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 0.5rem;
+}
+
 // *************************** overrides ***************************
 
 
 
 // *************************** utils ***************************
+.txt-red{
+    color: #dc3545FF;
+}
