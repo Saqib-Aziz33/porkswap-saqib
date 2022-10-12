@@ -51,6 +51,11 @@ body{
             filter: saturate(0);
         }
     }
+    .shadow-cols{
+        .col-md-4:nth-child(2n){
+            box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 10%);
+        }
+    }
 }
 
 
