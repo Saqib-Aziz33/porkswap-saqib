@@ -4,6 +4,7 @@ import AsSeenOn from "../components/elements/AsSeenOn";
 import HowItWorks from "../components/elements/HowItWorks";
 import PlatformInterface from "../components/elements/PlatformInterface";
 import Pswap from "../components/elements/Pswap";
+import ProductRoadmap from "../components/elements/ProductRoadmap";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <HowItWorks />
       <PlatformInterface />
       <Pswap />
+      <ProductRoadmap />
     </>
   );
 }

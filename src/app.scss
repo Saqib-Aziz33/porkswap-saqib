@@ -87,6 +87,12 @@ body{
         height: 100%;
     }
 }
+.product-roadmap{
+    background-image: url('./media/Frame-13-3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 // *************************** overrides ***************************
 
@@ -95,4 +101,7 @@ body{
 // *************************** utils ***************************
 .txt-red{
     color: #dc3545FF;
+}
+.shadow{
+    box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 10%);
 }
