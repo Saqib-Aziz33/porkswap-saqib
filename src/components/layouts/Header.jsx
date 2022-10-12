@@ -34,9 +34,9 @@ function Header() {
             <Link className="nav-link" to="features">
               Features
             </Link>
-            <Link className="nav-link" to="/">
+            <Nav.Link href="assets/lite-paper.pdf" target="_blank">
               Litepaper
-            </Link>
+            </Nav.Link>
             <Link className="nav-link" to="platform">
               Platform
             </Link>
@@ -46,9 +46,9 @@ function Header() {
             <Link className="nav-link" to="faqs">
               FAQs
             </Link>
-            <Link className="nav-link" to="/">
+            <Nav.Link href="assets/audit-by-solid-group.pdf" target="_blank">
               Audit Report
-            </Link>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

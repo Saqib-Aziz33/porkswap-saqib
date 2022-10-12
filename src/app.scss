@@ -24,6 +24,9 @@ body{
         font-weight: 600;
         font-size: 0.9rem;
         cursor: pointer;
+        &:visited{
+            color: #ddd;
+        }
     }
     .navbar-toggler{
         color: white;
