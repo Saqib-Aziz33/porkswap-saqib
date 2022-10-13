@@ -1,4 +1,5 @@
 import { Container, Row } from "react-bootstrap";
+import Par from "./Par";
 
 function Hero() {
   return (
@@ -54,6 +55,7 @@ function Hero() {
           </div>
         </Row>
       </Container>
+      <Par />
     </div>
   );
 }

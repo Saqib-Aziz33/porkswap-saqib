@@ -13,14 +13,16 @@ function Home() {
   return (
     <>
       <Hero />
-      <AsSeenOn />
-      <HowItWorks />
-      <TokenDist />
-      <PlatformInterface />
-      <Pswap />
-      <ComparisonTable />
-      <ProductRoadmap />
-      <Faqs />
+      <div className="other-than-particles">
+        <AsSeenOn />
+        <HowItWorks />
+        <TokenDist />
+        <PlatformInterface />
+        <Pswap />
+        <ComparisonTable />
+        <ProductRoadmap />
+        <Faqs />
+      </div>
     </>
   );
 }

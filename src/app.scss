@@ -8,6 +8,10 @@ body {
     position: relative;
 }
 
+#root{
+    position: relative
+}
+
 
 // *************************** components ***************************
 .header {
@@ -51,18 +55,17 @@ body {
         background-color: #12436bFF;
     }
 }
-
 .hero {
     background-image: url('./media/bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     min-height: 100vh;
-    .container{
-        background-image: url('./media/particles-1.gif');
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+    // .container{
+    //     background-image: url('./media/particles-1.gif');
+    //     background-size: cover;
+    //     background-repeat: no-repeat;
+    // }
 }
 
 .as-seen-on {
@@ -250,6 +253,10 @@ body {
 
 
 // *************************** utils ***************************
+.other-than-particles{
+    position: relative;
+    z-index: 5;
+}
 .txt-red {
     color: #dc3545FF;
 }
