@@ -58,6 +58,11 @@ body {
     background-repeat: no-repeat;
     color: white;
     min-height: 100vh;
+    .container{
+        background-image: url('./media/particles-1.gif');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 .as-seen-on {
